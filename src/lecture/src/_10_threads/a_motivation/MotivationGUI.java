@@ -26,7 +26,7 @@ public class MotivationGUI {
 
 	public MotivationGUI() {
 		// Create frame to display processed images
-		MyImageFrame imageFrame = new MyImageFrame("resources/Lena350.png");
+		MyImageFrame imageFrame = new MyImageFrame("resources/DocksGray.jpg");
 
 		// Create control frame and set properties
 		JFrame frame = new JFrame("Process");

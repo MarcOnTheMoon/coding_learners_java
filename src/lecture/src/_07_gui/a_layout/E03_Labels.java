@@ -27,8 +27,8 @@ public class E03_Labels {
 		frame.setLayout(new GridLayout(2, 1));  // 2 rows, 1 column
 
 		// Create labels
-		ImageIcon image = new ImageIcon("resources/Lena100.jpg");
-		JLabel label1 = new JLabel("Lena", image, JLabel.CENTER);
+		ImageIcon image = new ImageIcon("resources/DocksSmall.jpg");
+		JLabel label1 = new JLabel("Docks", image, JLabel.CENTER);
 		label1.setHorizontalTextPosition(JLabel.CENTER);
 		label1.setVerticalTextPosition(JLabel.BOTTOM);
 
