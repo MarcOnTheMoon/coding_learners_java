@@ -8,11 +8,11 @@ This raised the question, why not share material with ... well, _you_, for insta
 
 ## Overview
 - The workbook contains a large number of exercises (with sample solutions), questions, extensive lab assignments (with provided files), and exams (with provided files and sample solutions).
-- I am aware that the lecture sample codes would be far more valuable with the lecture slides provided. This may follow in future.
+- I am aware that the lecture [sample codes](src/lecture) would be far more valuable with the lecture slides provided. This may follow in future.
 
 ## Upload status (uploaded or still to come)
 - [ ] Workbook (German, English)
-- [ ] Sample codes used in the lecture
+- [X] [Sample codes](src/lecture) used in the lecture
 - [ ] Sample solutions for the exercises
 - [ ] Provided files and sample solutions for the exams
 - [ ] Provided files for lab assignments
