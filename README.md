@@ -7,16 +7,15 @@ This raised the question, why not share material with ... well, _you_, for insta
 <br clear=all>
 
 ## Overview
-- The workbook contains a large number of exercises (with sample solutions), questions, extensive lab assignments (with provided files), and exams (with provided files and sample solutions).
+- The workbook contains a large number of exercises (with  [sample solutions](src/workbook)), questions, and extensive lab assignments (with provided files).
 - I am aware that the lecture [sample codes](src/lecture) would be far more valuable with the lecture slides provided. This may follow in future.
 
 ## Upload status (uploaded or still to come)
-- [ ] Workbook (German, English)
+- [ ] Workbook (German)
 - [X] [Sample codes](src/lecture) used in the lecture
-- [ ] Sample solutions for the exercises
-- [ ] Provided files and sample solutions for the exams
+- [ ] [Sample solutions](src/workbook/exercises) for the exercises
 - [ ] Provided files for lab assignments
-- [ ] Lecture slides (German, English)
+- [ ] Lecture slides (German)
 
 ## Contact
 Marc Hensel, University of Applied Sciences Hamburg (HAW Hamburg)
