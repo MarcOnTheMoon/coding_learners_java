@@ -13,7 +13,7 @@ This raised the question, why not share material with ... well, _you_, for insta
 ## Upload status (uploaded or still to come)
 - [ ] Workbook (German)
 - [X] [Sample codes](src/lecture) used in the lecture
-- [ ] [Sample solutions](src/workbook/exercises) for the exercises
+- [ ] [Sample solutions](src/workbook) for the exercises
 - [ ] Provided files for lab assignments
 - [ ] Lecture slides (German)
 
