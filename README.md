@@ -7,7 +7,7 @@ This raised the question, why not share material with ... well, _you_, for insta
 <br clear=all>
 
 ## Overview
-- The [workbook](docs/) contains a large number of exercises (with [sample solutions](src/workbook)), questions, and extensive lab assignments (with provided files).
+- The [workbook](docs/) contains a large number of exercises (with [sample solutions](src/workbook)), questions, and extensive lab assignments (with [provided files](src/workbook)).
 - I am aware that the lecture [sample codes](src/lecture) would be far more valuable with the lecture slides provided. This may follow in future.
 - Source codes are provided as projects for the IDE [IntelliJ IDEA Community](https://www.jetbrains.com/idea/).
 
@@ -15,7 +15,7 @@ This raised the question, why not share material with ... well, _you_, for insta
 - [X] Workbook ([German](docs/))
 - [X] [Sample codes](src/lecture) used in the lecture
 - [X] [Sample solutions](src/workbook) for the exercises
-- [ ] Provided files for lab assignments
+- [X] Provided files for [lab assignments](src/workbook)
 - [ ] Lecture slides (German)
 
 ## Contact
