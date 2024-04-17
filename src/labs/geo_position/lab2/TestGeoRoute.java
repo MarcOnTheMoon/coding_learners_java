@@ -1,4 +1,4 @@
-package labs.lab2.geoPosition;
+package geo_position.lab2;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;

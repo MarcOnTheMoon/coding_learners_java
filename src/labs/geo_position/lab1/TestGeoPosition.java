@@ -1,4 +1,4 @@
-package labs.lab1.geoPosition;
+package geo_position.lab1;
 
 import static org.junit.Assert.*;
 import java.lang.reflect.Field;
@@ -70,7 +70,7 @@ public class TestGeoPosition {
 		GeoPosition b = new GeoPosition(1.5, -2.7);
 		GeoPosition c = new GeoPosition(-1.5, 2.7);
 		GeoPosition d = new GeoPosition(-1.5, -2.7);
-		
+
 		assertEquals("(1.5, 2.7)", a.toString());
 		assertEquals("(1.5, -2.7)", b.toString());
 		assertEquals("(-1.5, 2.7)", c.toString());
@@ -78,7 +78,7 @@ public class TestGeoPosition {
 	}
 
 	/** Test if in class all modifiers of instance variables are "private".
-	 * 
+	 *
 	 * @param fullClassName Class name (including packages, e.g.: "histogram.Histogram")
 	 * @return True if all instance variables are private
 	 */
@@ -100,5 +100,5 @@ public class TestGeoPosition {
 			fail("Class not found");
 		}
 		return false;
-	} 
+	}
 }
