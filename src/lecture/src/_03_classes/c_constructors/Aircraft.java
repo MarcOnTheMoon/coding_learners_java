@@ -9,20 +9,20 @@ package _03_classes.c_constructors;
  * License: CC BY-NC-SA 4.0 (see <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">link</a>)
  */
 public class Aircraft {
-	String model;
-	String airline;
-	int numberEngines;
+	public String model;
+	public String airline;
+	public int numberEngines;
 
-	Aircraft() {
+	public Aircraft() {
 		numberEngines = 1;
 	}
 
-	Aircraft(String model) {
+	public Aircraft(String model) {
 		this();
 		this.model = model;
 	}
 
-	Aircraft(String model, String airline) {
+	public Aircraft(String model, String airline) {
 		this(model);
 		this.airline = airline;
 	}
