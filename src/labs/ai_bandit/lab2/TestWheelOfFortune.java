@@ -15,7 +15,7 @@ import static org.junit.Assert.*;
  * Author: Marc Hensel (<a href="http://www.haw-hamburg.de/marc-hensel">link</a>)<br>
  * Project: coding_learners_java (<a href="https://github.com/MarcOnTheMoon/coding_learners_java/">link</a>)<br>
  * Copyright: 2024, Marc Hensel<br>
- * Version: 2024.05.07<br>
+ * Version: 2024.05.24<br>
  * License: CC BY-NC-SA 4.0 (see <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">link</a>)
  */
 public class TestWheelOfFortune {
@@ -72,9 +72,10 @@ public class TestWheelOfFortune {
     @Test
     public final void test_R09_GetNumberFields() {
         // Create object
+        int minRange = 1, maxRange = 30;
         Random random = new Random();
-        int numberFields1 = random.nextInt(1, 30);
-        int numberFields2 = random.nextInt(1, 30);
+        int numberFields1 = random.nextInt(maxRange - minRange + 1) + minRange;
+        int numberFields2 = random.nextInt(maxRange - minRange + 1) + minRange;
         int argNumberFields = numberFields1 + numberFields2;
         int[] argCategoryNumberFields = { numberFields1, numberFields2 };
         WheelOfFortune wheel = new WheelOfFortune(1.0, argCategoryNumberFields, new double[]{ 1.5, 2.5 });
